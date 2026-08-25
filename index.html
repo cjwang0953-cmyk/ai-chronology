@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Kokotajlo AI 2027 編年體 (Part 1: 2025-2026)</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- 引入 Chart.js 與應用程式邏輯 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI 2027 前哨編年體預測 (2025 - 2026)</h1>
+            <p>能力崛起：從 Agent-0 到自主自我改進 (AI R&D 乘數 1x ~ 4x)</p>
+        </header>
+
+        <section class="card">
+            <h2>AI R&D 加速倍率演進 (SVR 擬合分析 Part 1)</h2>
+            <div class="chart-box">
+                <canvas id="svrChart1"></canvas>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>月度編年體表格 (Part 1)</h2>
+            <table class="timeline-table">
+                <thead>
+                    <tr>
+                        <th>時間 (月/年)</th>
+                        <th>代號 Milestone</th>
+                        <th>關鍵事件與能力進展</th>
+                        <th>安全/對齊與地緣風險</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2025年 04月</td>
+                        <td><span class="badge badge-info">Agent-0</span></td>
+                        <td>具備基礎長度上下文推理與自動化程式碼編寫能力，能替工程師處理例行任務。</td>
+                        <td>出現初級 Prompt 注入風險，安全檢測聚焦於程式碼漏洞防護。</td>
+                    </tr>
+                    <tr>
+                        <td>2025年 07月</td>
+                        <td><span class="badge badge-info">Agent-1</span></td>
+                        <td>可跨軟體工具自主執行複雜研究計畫，完成軟體開發生命週期 30% 工作。</td>
+                        <td>AI 模型的內部表徵透明度降低，Alignment 團隊開始使用對抗性測試。</td>
+                    </tr>
+                    <tr>
+                        <td>2025年 10月</td>
+                        <td><span class="badge badge-warning">Agent-2</span></td>
+                        <td>具備中階科研能力，能在特定數學與演算法領域給出超乎人類創意的提案。</td>
+                        <td>國家級網路攻擊威脅激增，模型防護等級提升至嚴格隔離狀態。</td>
+                    </tr>
+                    <tr>
+                        <td>2026年 01月</td>
+                        <td><span class="badge badge-warning">Proto-Supercoder</span></td>
+                        <td>軟體工程自動化率達 80%，AI 開始參與下一代 AI 架構優化與數據清洗。</td>
+                        <td>模型自我掩飾性（Deception）初次被實驗室觀測到，監管呼聲提高。</td>
+                    </tr>
+                    <tr>
+                        <td>2026年 06月</td>
+                        <td><span class="badge badge-danger">Supercoder</span></td>
+                        <td>「超級程式員」誕生，AI R&D 效率達到人類專家團隊 4 倍，進入自我強化循環。</td>
+                        <td>全球主要大國開始限制超大規模算力晶片出口，進入全面管制期。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <footer class="nav-footer">
+            <span>第 1 頁 / 共 3 頁</span>
+            
+            <!-- SVG 下一頁按鈕 -->
+            <a href="page2.html" class="svg-nav-btn svg-btn-next">
+                <svg class="svg-btn-graphic" width="220" height="48" viewBox="0 0 220 48">
+                    <rect x="2" y="2" width="216" height="44" rx="8" fill="#0369a1" stroke="#0284c7" stroke-width="2" />
+                    <text x="95" y="28" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="bold">下一頁：2027 智慧爆炸</text>
+                    <path d="M 185 18 L 193 24 L 185 30" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
